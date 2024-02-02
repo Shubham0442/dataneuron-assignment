@@ -1,0 +1,55 @@
+.todo-container {
+  width: 90%;
+  height: auto;
+  text-align: center;
+}
+
+.todo-container > .add-todo {
+  width: 70%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.add-todo > input {
+  width: 80%;
+  height: 100%;
+  border-radius: 0;
+  border: 0;
+  padding-left: 20px;
+}
+
+.add-todo > input:focus-visible {
+  outline: none;
+}
+
+.add-todo > button {
+  width: 120px;
+  height: 30px;
+  border: 0;
+  background-color: rgb(78, 78, 226);
+  color: #fff;
+}
+
+.todo-table-container {
+  width: 100%;
+  margin: auto;
+}
+
+table {
+  width: 90%;
+  margin-top: 10px;
+}
+
+table > thead > tr > th {
+  height: 25px;
+  font-weight: 700;
+}
+
+table > thead > tr > th,
+table > tbody > tr > td {
+  border: 2px solid;
+}
